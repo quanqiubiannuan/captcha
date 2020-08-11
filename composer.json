@@ -1,0 +1,28 @@
+{
+  "name": "daiji/captcha",
+  "description": "PHP 验证码。",
+  "keywords": [
+    "captcha",
+    "php captcha",
+    "验证码"
+  ],
+  "license": "Apache-2.0",
+  "type": "library",
+  "authors": [
+    {
+      "name": "全球变暖",
+      "email": "1445023846@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "ext-iconv": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "daiji\\captcha\\": "src"
+    }
+  }
+}
